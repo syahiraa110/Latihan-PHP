@@ -1,0 +1,50 @@
+<?php
+// Variabel
+echo "Hai teman teman semua";
+echo "<br>";
+echo "Nama: Puteri Nur Syahira";
+echo "<br>";
+echo "Jk: Perempuan";
+echo "<br>";
+echo "Kelas: XI RPL 4";
+echo "<br>";
+echo "Alamat: Jalan Danau Towuti";
+
+
+echo "<br>";
+$namaPanggilan = "Putri";
+$uangSaku = 500000;
+
+echo $namaPanggilan;
+echo "<br>";
+echo "Uang Saku: $uangSaku";
+echo "<br>";
+
+
+// Menghitung Luas Segitiga (OPERATOR)
+$l = 1 / 2;
+$a = 6;
+$t = 9;
+$hasil = $l * $a * $t;
+
+echo $hasil;
+echo "<br>";
+
+// Kondisi 
+$harga = 8000;
+if ($harga < 5000) {
+    echo "Saya akan Beli Kopi";
+} else if ($harga <= 8000) {
+    echo "Saya akan tawar sampai jadi";
+} else {
+    echo "Saya tidak punya uang";
+}
+echo "<br>";
+
+
+// FUNCTION
+function syahira()
+{
+    echo "Belajar Php";
+}
+syahira();
